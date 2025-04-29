@@ -1,0 +1,31 @@
+#!/bin/bash
+apt-get update -y
+apt-get upgrade -y
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/mr-
+das-prasenjit-GitHub/pd_private1.git
+git push -u origin master
+git clone https://github.com/mr-das-
+prasenjit-GitHub/pd_private1.git
+ls
+cd pd_private1/
+git pull origin master
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx
+git clone link
+sudo apt install nodejs
+npm install
+node index.js
